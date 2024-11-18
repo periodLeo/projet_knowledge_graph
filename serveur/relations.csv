@@ -1,0 +1,91 @@
+head,relation,tail
+Manet,is,peintre
+MAN001,is,tableau
+MAN001,isNamed,Olympia
+MAN001,paintedBy,Manet
+MAN001,is,nu
+MAN001,datesFrom,1863
+MAN001,represents,F01
+F01,is,femme
+F01,hasAsModel,Victorine Meurent
+Victorine Meurent,is,femme
+MAN001,location,intérieur
+MAN002,isNamed,Le déjeuner sur l’herbe
+MAN002,is,tableau
+MAN002,paintedBy,Manet
+MAN002,datesFrom,1863
+MAN002,is,portrait de groupe
+MAN002,represents,un repas
+MAN002,location,campagne
+MAN002,represents,F02
+F02,is,femme
+F02,hasAsModel,Victorine Meurent
+Monet,is,peintre
+MON001,paintedBy,Monet
+MON001,isNamed,Le train dans la neige
+MON001,is,tableau
+MON001,datesFrom,1875
+MON001,represents,un train
+MON001,location,campagne
+un train,evokes,transports
+MON002,is,tableau
+MON002,isNamed,La gare saint-Lazare
+MON002,datesFrom,1877
+MON002,paintedBy,Monet
+MON002,represents,une gare
+MON002,represents,un train
+MON002,location,ville
+MON002,is,paysage
+MON003,is,tableau
+MON003,isNamed,Le déjeuner sur l’herbe
+MON003,paintedBy,Monet
+MON003,datesFrom,1865
+MON003,location,campagne
+Cézanne,is,peintre
+CEZ001,is,tableau
+CEZ001,isNamed,Une moderne Olympia
+CEZ001,paintedBy,Cézanne
+CEZ001,datesFrom,1873
+CEZ001,inspiredBy,Olympia
+Titien,is,peintre
+TIT001,is,tableau
+TIT001,isNamed,La Vénus d'Urbin
+TIT001,paintedBy,Titien
+TIT001,datesFrom,1538
+TIT001,is,nu
+MAN001,inspiredBy,TIT001
+Giorgione,is,peintre
+GIO001,is,tableau
+GIO001,isNamed,La Vénus endormie
+GIO001,datesFrom,1511
+GIO001,paintedBy,Giorgione
+GIO001,paintedBy,Titien
+GIO001,is,nu
+TIT001,inspiredBy,GIO001
+Caillebotte,is,peintre
+CAI001,is,tableau
+CAI001,isNamed,La partie de bateau
+CAI001,paintedBy,Caillebotte
+CAI001,datesFrom,1877
+CAI001,represents,un bateau
+CAI001,represents,faire du bateau
+faire du bateau,is,activité
+MAN003,is,tableau
+MAN003,isNamed,En bateau
+MAN003,paintedBy,Manet
+MAN003,datesFrom,1874
+MAN003,represents,un bateau
+MAN003,represents,faire du bateau
+MON004,is,tableau
+MON004,isNamed,Le bateau atelier
+MON004,datesFrom,1876
+MON004,paintedBy,Monet
+MON004,represents,un bateau
+MON004,represents,peindre
+peindre,is,activité
+MON005,is,tableau
+MON005,isNamed,Régates à Argenteuil
+MON005,paintedBy,Monet
+MON005,datesFrom,1872
+MON005,represents,des bateaux
+MON005,represents,faire du bateau
